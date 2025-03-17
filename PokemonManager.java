@@ -70,4 +70,9 @@ public class PokemonManager {
             System.out.println("Error al guardar la colección: " + e.getMessage());
         }
     }
+
+    public Set<String> getUserCollection() {
+        return userCollection;
+    }
+}
 }
